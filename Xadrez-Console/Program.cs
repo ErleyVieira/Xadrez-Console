@@ -10,7 +10,7 @@ namespace Xadrez_Console
         static void Main(string[] args)
         {
 
-            Tabuleiro tabuleiro = new Tabuleiro(8, 8);
+            Tabuleiro tabuleiro = new (8, 8);
 
             tabuleiro.ColocarPeca(new Torre(Cor.Preta, tabuleiro) , new Posicao(0, 0));
             tabuleiro.ColocarPeca(new Torre(Cor.Preta, tabuleiro) , new Posicao(1, 3));
